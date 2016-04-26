@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6CCDDD01CC0D022004AA152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCDDCF1CC0D022004AA152 /* main.m */; };
+		C6CCDDD31CC0D022004AA152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCDDD21CC0D022004AA152 /* AppDelegate.m */; };
+		C6CCDDD61CC0D022004AA152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCDDD51CC0D022004AA152 /* ViewController.m */; };
+		C6CCDDD91CC0D022004AA152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CCDDD71CC0D022004AA152 /* Main.storyboard */; };
+		C6CCDDDC1CC0D022004AA152 /* KJellyAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6CCDDDA1CC0D022004AA152 /* KJellyAnimation.xcdatamodeld */; };
+		C6CCDDDE1CC0D022004AA152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CCDDDD1CC0D022004AA152 /* Assets.xcassets */; };
+		C6CCDDE11CC0D022004AA152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CCDDDF1CC0D022004AA152 /* LaunchScreen.storyboard */; };
+		C6CCDDEA1CC0D0C5004AA152 /* KJellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCDDE91CC0D0C5004AA152 /* KJellyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6CCDDCB1CC0D022004AA152 /* KJellyAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJellyAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CCDDCF1CC0D022004AA152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6CCDDD11CC0D022004AA152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6CCDDD21CC0D022004AA152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6CCDDD41CC0D022004AA152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6CCDDD51CC0D022004AA152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6CCDDD81CC0D022004AA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6CCDDDB1CC0D022004AA152 /* KJellyAnimation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KJellyAnimation.xcdatamodel; sourceTree = "<group>"; };
+		C6CCDDDD1CC0D022004AA152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6CCDDE01CC0D022004AA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6CCDDE21CC0D022004AA152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CCDDE81CC0D0C5004AA152 /* KJellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJellyView.h; sourceTree = "<group>"; };
+		C6CCDDE91CC0D0C5004AA152 /* KJellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJellyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6CCDDC81CC0D022004AA152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6CCDDC21CC0D022004AA152 = {
+			isa = PBXGroup;
+			children = (
+				C6CCDDE81CC0D0C5004AA152 /* KJellyView.h */,
+				C6CCDDE91CC0D0C5004AA152 /* KJellyView.m */,
+				C6CCDDCD1CC0D022004AA152 /* KJellyAnimation */,
+				C6CCDDCC1CC0D022004AA152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6CCDDCC1CC0D022004AA152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCDDCB1CC0D022004AA152 /* KJellyAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6CCDDCD1CC0D022004AA152 /* KJellyAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCDDD11CC0D022004AA152 /* AppDelegate.h */,
+				C6CCDDD21CC0D022004AA152 /* AppDelegate.m */,
+				C6CCDDD41CC0D022004AA152 /* ViewController.h */,
+				C6CCDDD51CC0D022004AA152 /* ViewController.m */,
+				C6CCDDD71CC0D022004AA152 /* Main.storyboard */,
+				C6CCDDDD1CC0D022004AA152 /* Assets.xcassets */,
+				C6CCDDDF1CC0D022004AA152 /* LaunchScreen.storyboard */,
+				C6CCDDE21CC0D022004AA152 /* Info.plist */,
+				C6CCDDDA1CC0D022004AA152 /* KJellyAnimation.xcdatamodeld */,
+				C6CCDDCE1CC0D022004AA152 /* Supporting Files */,
+			);
+			path = KJellyAnimation;
+			sourceTree = "<group>";
+		};
+		C6CCDDCE1CC0D022004AA152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6CCDDCF1CC0D022004AA152 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6CCDDCA1CC0D022004AA152 /* KJellyAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CCDDE51CC0D022004AA152 /* Build configuration list for PBXNativeTarget "KJellyAnimation" */;
+			buildPhases = (
+				C6CCDDC71CC0D022004AA152 /* Sources */,
+				C6CCDDC81CC0D022004AA152 /* Frameworks */,
+				C6CCDDC91CC0D022004AA152 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJellyAnimation;
+			productName = KJellyAnimation;
+			productReference = C6CCDDCB1CC0D022004AA152 /* KJellyAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6CCDDC31CC0D022004AA152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lq;
+				TargetAttributes = {
+					C6CCDDCA1CC0D022004AA152 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C6CCDDC61CC0D022004AA152 /* Build configuration list for PBXProject "KJellyAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6CCDDC21CC0D022004AA152;
+			productRefGroup = C6CCDDCC1CC0D022004AA152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6CCDDCA1CC0D022004AA152 /* KJellyAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6CCDDC91CC0D022004AA152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CCDDE11CC0D022004AA152 /* LaunchScreen.storyboard in Resources */,
+				C6CCDDDE1CC0D022004AA152 /* Assets.xcassets in Resources */,
+				C6CCDDD91CC0D022004AA152 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6CCDDC71CC0D022004AA152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6CCDDEA1CC0D0C5004AA152 /* KJellyView.m in Sources */,
+				C6CCDDD61CC0D022004AA152 /* ViewController.m in Sources */,
+				C6CCDDD31CC0D022004AA152 /* AppDelegate.m in Sources */,
+				C6CCDDD01CC0D022004AA152 /* main.m in Sources */,
+				C6CCDDDC1CC0D022004AA152 /* KJellyAnimation.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6CCDDD71CC0D022004AA152 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CCDDD81CC0D022004AA152 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6CCDDDF1CC0D022004AA152 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6CCDDE01CC0D022004AA152 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6CCDDE31CC0D022004AA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6CCDDE41CC0D022004AA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6CCDDE61CC0D022004AA152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KJellyAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LQ.www.KJellyAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6CCDDE71CC0D022004AA152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KJellyAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LQ.www.KJellyAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6CCDDC61CC0D022004AA152 /* Build configuration list for PBXProject "KJellyAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CCDDE31CC0D022004AA152 /* Debug */,
+				C6CCDDE41CC0D022004AA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CCDDE51CC0D022004AA152 /* Build configuration list for PBXNativeTarget "KJellyAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6CCDDE61CC0D022004AA152 /* Debug */,
+				C6CCDDE71CC0D022004AA152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C6CCDDDA1CC0D022004AA152 /* KJellyAnimation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6CCDDDB1CC0D022004AA152 /* KJellyAnimation.xcdatamodel */,
+			);
+			currentVersion = C6CCDDDB1CC0D022004AA152 /* KJellyAnimation.xcdatamodel */;
+			path = KJellyAnimation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C6CCDDC31CC0D022004AA152 /* Project object */;
+}
